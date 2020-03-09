@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Game</title>
+<!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<!--Link to css-->    
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+<body>
+    
+<!--I want a overall container here-->    
+<div class="container">
+<!--I want a jumbotron to hold the title, score and timer here-->                
+<div class="jumbotron">
+    <h1 class="display-4">TRIVIA</h1>
+    <p class="lead">This is a simple trivia game. Click start to begin and play as often as you like...</p>
+    <hr class="my-4">
+    <p>This is currently set to Geography at a medium level, but I want to add a radio button to pick categories and have it change the search on the API.</p>
+    <a class="btn btn-primary btn-lg" id ="start" role="button">Start</a>
+
+  </div> 
+
+       <!-- Result Card -->
+<div class="containerb">
+        <div class="results" style="width: 18rem;">
+              <h5 class="card-title">RESULTS</h5>
+              <div class="card-body">
+              <h1 id="Wins">WINS</h1> 
+              <h1 id="win-count">0</h1>
+              <!-- the number of wins used in JS-->
+              <h1 id="Losses">LOSSES</h1> 
+              <h1 id="loss-count">0</h1>
+            </div>
+          </div>        
+
+               <div class="countdown" style="width: 18rem;">
+                <h3 class="card-title">COUNTDOWN</h3>
+                <div class="card-body"> 
+                <h3 class="countdowntimer"></h3>
+                </div>
+              </div>
+</div>
+    
+<!--3rd continer for the question and answer-->
+
+
+        <h3 class="question"><div class="card-body"><strong>This is the question box:</strong></div></h3>
+        <button type="answer1" id ="answer1" class="btn btn-primary btn-lg btn-block"><span>text</span></button>
+        <button type="answer2" id ="answer2" class="btn btn-primary btn-lg btn-block"></button>
+        <button type="answer3" id ="answer3" class="btn btn-primary btn-lg btn-block"></button>
+        <button type="answer4" id ="answer4" class="btn btn-primary btn-lg btn-block"></button>
+        
+
+
+</div>
+        
+<!--LINK FOR JAVASCRIPT PAGE-->        
+<script type="text/javascript" src="../TriviaGame/assets/javascript/app.js"></script>
+</div>
+</div>
+</body>
+</html>

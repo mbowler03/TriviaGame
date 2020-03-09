@@ -1,0 +1,26 @@
+
+.jumbotron {
+    background-color: darkgray;
+}
+
+
+html {
+    min-height: 100%;
+    background-color: #0769ad;
+     }
+  
+  body {
+    font-size: 16px;
+    
+    font-family: "Trebuchet MS", Verdana, Arial, sans-serif; }
+  
+
+#container {
+ 
+    background-color: #fff;
+ }
+ 
+ .countdown {
+    background-color: red;
+   
+ }
